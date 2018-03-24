@@ -1,0 +1,3 @@
+[submodule "app/src/main/cpp/submodule"]
+	path = app/src/main/cpp/submodule
+	url = git@github.com:myakushka/learning_cpp.git
