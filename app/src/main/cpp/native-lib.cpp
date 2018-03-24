@@ -13,4 +13,5 @@ Java_com_myakushka_javacpp_MainActivity_stringFromJNI(
     auto intarface = std::make_shared<CppInterface>();
     std::string hello = intarface->getString();
     return env->NewStringUTF(hello.c_str());
+
 }
